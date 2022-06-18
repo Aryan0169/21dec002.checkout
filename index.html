@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <main>
+      <div id="home">
+        <div class="left">
+          <div class="head_text">Checkout</div>
+          <div class="form">
+            <form>
+              <div class="head_text2">Contact Information</div>
+              <label for="mail">E-Mail</label>
+              <br />
+              <input
+                type="text"
+                class="box"
+                name="E-Mail"
+                placeholder="Enter Your Email"
+              />
+              <br />
+              <label for="phone">Phone</label>
+              <br />
+              <input
+                type="number"
+                class="box"
+                name="Phone Number"
+                placeholder="Enter Your Phone"
+              />
+              <br /><br /><br />
+              <div class="head_text2">Shipping Address</div>
+              <label for="name">Full Name</label>
+              <br />
+              <input
+                type="text"
+                class="box"
+                name="Full Name"
+                placeholder="Your Name"
+              />
+              <br />
+              <label for="Address">Address</label>
+              <br />
+              <input
+                type="text"
+                class="box"
+                name="Address"
+                placeholder="Your Address"
+              />
+              <br />
+              <label for="City">City</label>
+              <br />
+              <input
+                type="text"
+                class="box"
+                name="City"
+                placeholder="Your City"
+              />
+              <br />
+              <div class="boxes">
+                <div>
+                  <label for="Country">Country</label>
+                  <br />
+                  <input
+                    type="text"
+                    class="box2"
+                    name="Country"
+                    placeholder="Your Country"
+                  />
+                  <br />
+                </div>
+                <br /><br /><br />
+                <div class="postal">
+                  <label for="Postal_Code">Postal Code</label>
+                  <br />
+                  <input
+                    type="number"
+                    class="box2"
+                    name="Postal Code"
+                    placeholder="Your Postal Code"
+                  />
+                  <br />
+                </div>
+              </div>
+              <div class="end">
+                <input type="checkbox" name="later" value="Saveforlater" />
+                <label for="Saveforlater"
+                  >Save this information for next time</label
+                >
+                <div>
+                  <button class="button">Continue</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right_item">
+            <div class="item1">
+              <div class="image">
+                <img src="Resources/b.jpg" alt="Image" />
+              </div>
+              <div class="item_detail">
+                <div class="item_name">Vintage Backpack</div>
+                <div class="price">
+                  <x class="current_price">$54.99</x>
+                  <y class="old_price">$94.99</y>
+                </div>
+                <table>
+                  <tr>
+                    <th>+</th>
+                    <th>1</th>
+                    <th>-</th>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="image">
+                <img src="Resources/a.jpg" alt="Image" />
+              </div>
+              <div class="item_detail">
+                <div class="item_name">Levi Shoes</div>
+                <div class="price">
+                  <x class="current_price">$74.99</x>
+                  <y class="old_price">$124.99</y>
+                </div>
+                <table>
+                  <tr>
+                    <th>+</th>
+                    <th>1</th>
+                    <th>-</th>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <hr />
+            <div class="ship">
+              <a class="shipping">Shipping Address</a>
+              <b class="shipping_cost1">$15</b>
+            </div>
+            <hr />
+            <div class="ship">
+              <a class="shipping">Total</a>
+              <b class="shipping_cost2">$148.98</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

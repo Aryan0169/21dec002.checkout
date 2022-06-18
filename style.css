@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+
+#home{
+    display: flex;
+}
+
+.head_text{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4E5150;
+}
+
+label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+/* 
+.postal{
+    margin-left: 26.5%;
+} */
+
+.head_text2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 8px;
+    /* line-height: 22px; */
+}
+
+.box{
+    width: 80%;
+    height: 20px;
+}
+
+.left{
+    min-width: 50%;
+    max-width: 60%;
+    /* float: right; */
+    padding-left: 150px;
+}
+
+.boxes{
+    display: flex ;
+}
+
+button{
+    padding: 15px 30px 15px 30px;
+    margin-right: 18.9%;
+    float: right;
+    background-color: #F2994A;
+    color: #FFF;
+    border-color: transparent;
+    /* border-style: ; */
+    border-radius: 3%;
+}
+
+form{
+    padding-top: 20px;
+}
+
+.right{
+    background-color: #F2F2F2;
+    width: 380px;
+    height: max-content;
+    border-radius: 3%;
+    margin-top: 70px;
+}
+
+.item1, .item2{
+    display: flex;
+    padding: 10px 10px 10px 10px
+}
+
+.item_detail{
+    padding-left: 30px;
+}
+
+.image img{
+    width: 100px;
+}
+
+.current_price{
+    color: #F2994A;
+}
+
+.old_price{
+    color: #4E5150;
+    text-decoration: line-through;
+    font-size: 80%;
+}
+
+hr{
+    width: 90%;
+}
+
+.ship{
+    padding: 10px 10px 10px 10px;
+}
+
+.shipping{
+    margin-left: 2%;
+}
+
+.shipping_cost1, .shipping_cost2{
+    /* margin-left: 88%;
+    margin-top: -20px; */
+    float: right;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    #home{
+        height : auto;
+        display: flex;
+        flex-direction : column;
+    }
+
+    .left{
+        padding: 5px 5px 5px 5px;
+        width: 150%;
+        flex-direction: row-reverse;
+    }
+
+    .right{
+        align-items: center;
+        margin: 0 0 0 0;
+        width: auto;
+        /* flex-direction: row-reverse; */
+    }
+    .head_text2{
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .end{
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .button{
+        float: right;
+        margin-right: 0px;
+    }
+}
